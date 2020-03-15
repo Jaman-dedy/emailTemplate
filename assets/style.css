@@ -18,8 +18,8 @@
 .logo {
   width: 2rem;
   height: 2.4rem;
-  /* margin-left: 3.5rem;
-  margin-top: 2rem; */
+  /* margin-left: 3.5rem; */
+  margin-top: 0.5rem;
 }
 .logo img {
   width: 100%;
@@ -28,21 +28,32 @@
 .body {
   color: rgba(0, 0, 0, 0.623);
 }
+.body p {
+  font-size: 0.9rem;
+}
 
-button {
+.button {
+  margin: 0 auto;
   margin-top: 2rem;
   width: 10rem;
-  height: 3rem;
-  color: #fff;
-  background-color: rgba(1, 100, 1, 0.603);
+  height: 2rem;
+  text-align: center;
+  padding-top: 0.9rem;
+
+  background-color: #174eacc7;
   border-radius: 2rem;
 
   transition: ease-in-out 0.4s;
 }
-button:hover {
+.button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+}
+.button:hover {
   cursor: pointer;
   transform: scale(1.1);
-  background-color: rgba(1, 100, 1, 0.76);
+  background-color: #174dac;
 }
 .footer {
   margin-top: 3rem;
@@ -52,14 +63,15 @@ button:hover {
       #ffffff -352.71%,
       rgba(255, 255, 255, 0) 104.51%
     ),
-    #174dac;
+    #f2f3f5;
   padding: 1rem;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.76);
 }
 .footer p {
-  color: rgba(255, 255, 255, 0.705);
+  color: rgba(0, 0, 0, 0.76);
+  font-size: 0.8rem;
 }
 .footer a {
-  color: rgba(255, 255, 255, 0.918);
+  color: #174dac;
   outline: none;
 }
